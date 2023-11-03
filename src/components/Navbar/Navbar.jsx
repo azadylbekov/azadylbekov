@@ -6,12 +6,15 @@ import styles from "./Navbar.module.scss";
 import { Turn as Hamburger } from "hamburger-react";
 import { useClickAway } from "@uidotdev/usehooks";
 import { NAV_LINKS } from "../../data/data";
+import resumeEn from '../../assets/static/resumeEn.pdf';
+import resumeRu from '../../assets/static/resumeRu.pdf';
+
 
 
 export default function Navbar({ mobileNavToggle, mouseToBottom }) {
   const [isMounted, setIsMounted] = useState(false);
   const resumeRef = createRef(null);
-  const [resumeLink, setResumeLink] = useState("/static/resumeEn.pdf");
+  const [resumeLink, setResumeLink] = useState(resumeEn);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const ref = useClickAway(() => {
     setIsMobileNavOpen(false);
@@ -40,10 +43,10 @@ export default function Navbar({ mobileNavToggle, mouseToBottom }) {
 
   useEffect(() => {
     if (i18n.language == "en") {
-      setResumeLink("/static/resumeEn.pdf");
+      setResumeLink(resumeEn);
     }
     if (i18n.language == "ru") {
-      setResumeLink("/static/resumeRu.pdf");
+      setResumeLink(resumeRu);
     }
   }, [i18n.language]);
 

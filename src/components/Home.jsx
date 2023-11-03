@@ -8,6 +8,9 @@ import {
   TransitionGroup,
 } from "react-transition-group";
 import { useTranslation } from "react-i18next";
+import resumeEn from '../assets/static/resumeEn.pdf';
+import resumeRu from '../assets/static/resumeRu.pdf';
+
 
 export default function Home() {
   const vector = useParallax({ speed: -5 });
@@ -15,10 +18,19 @@ export default function Home() {
   const codeDecor = useParallax({ speed: 20 });
   const [isMounted, setIsMounted] = useState(false);
   const nodeRef = useRef(null);
-  const [resumeLink, setResumeLink] = useState("/static/resumeEn.pdf");
+  const [resumeLink, setResumeLink] = useState(resumeEn);
 
 
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    if (i18n.language == "en") {
+      setResumeLink(resumeEn);
+    }
+    if (i18n.language == "ru") {
+      setResumeLink(resumeRu);
+    }
+  }, [i18n.language]);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
