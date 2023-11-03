@@ -1,0 +1,22 @@
+.headerScrolled {
+	transition: 0.3s;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: rgba(0, 21, 44, 0.8);
+	z-index: 100;
+	box-shadow: 0 10px 30px -10px #000;
+}
+
+.headerStatic {
+	transition: 0.3s;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	z-index: 100;
+}
+
+@media screen and (max-width: 640px) {
+	.headerScrolled {
+		padding-top: 4px;
+		padding-bottom: 8px;
+	}
+}

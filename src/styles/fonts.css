@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Monaco';
+    src: url('../assets/fonts/Monaco.woff2') format('woff2'),
+        url('../assets/fonts/Monaco.woff') format('woff'),
+        url('../assets/fonts/Monaco.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

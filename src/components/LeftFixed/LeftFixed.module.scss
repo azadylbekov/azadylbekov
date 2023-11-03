@@ -1,0 +1,25 @@
+.leftFixed {
+	position: fixed;
+	bottom: 100px;
+	left: 50px;
+	z-index: 100;
+}
+
+.left-fixed-icon {
+	width: 30px;
+	height: 30px;
+	color: #96FFFF;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+	.leftFixed {
+		left: 10px
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.leftFixed {
+		display: none;
+	}
+}

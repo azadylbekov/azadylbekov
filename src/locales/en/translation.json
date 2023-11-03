@@ -1,0 +1,31 @@
+{
+	"nav_about": "About",
+	"nav_experience": "Experience",
+	"nav_work": "Work",
+	"nav_contact": "Contact",
+	"nav_resume": "Resume",
+  "app_name": "Azamat Adylbekov",
+  "home_greetings": "Hi, my name is",
+  "home_subtitle": "I build user-friendly web apps",
+  "home_description": "I am a front-end developer specializing in VueJs and ReactJs. I have 2 years of commercial experience in building web applications across various domains.",
+
+	"about_heading": "About me",
+	"about_para1": "Hello! My name is Azamat and I like creating web interfaces that appeal to human’s eyes. My journey in web development started in 2018 when I decided to make my own website for fun. Hacking together a simple website taught me a lot about HTML & CSS!",
+	"about_para2": "For the past 2 years I had the privilege of working for 2 local tech companies and 1 international audit company. Being part of a team developing web solutions has helped me a lot in honing my skills in front-end technologies and software development.",
+	"about_para3": "Here are technologies that I worked with so far:",
+	
+	"experience_heading": "Where I've worked",
+
+	"project_heading": "Some things I've built",
+
+	"project_feature": "Featured project",
+
+	"contact_heading": "Anything else?",
+
+	"contact_hero": "Let's talk",
+	"contact_subtitle": "I am open to have a discussion and to new opportunities. Whether you have a question or just want to say hi, I’ll try my best to get back to you",
+	"contact_link": "Say hello",
+
+	"footer_text": "Designed and Built by Azamat Adylbekov"
+
+}
