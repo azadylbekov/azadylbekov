@@ -2,8 +2,8 @@ import { createRef } from "react";
 import { FaInstagram, FaGithub, FaLinkedin, FaAt } from "react-icons/fa";
 import WeatherAppImg from "../assets/images/weather_app.png";
 import SimonGameImg from "../assets/images/simon_game.png";
+import filmbookImg from '../assets/images/filmbook.png';
 import { uid } from "uid";
-
 
 export const NAV_LINKS = [
   {
@@ -60,6 +60,22 @@ export const SOCIAL_LINKS = [
 ];
 
 export const PET_PROJECTS = [
+  {
+    en: {
+      title: "FilmBook",
+      description: "Web application to search, filter, sort movies, tv series and actors. Backend is based on TheMovieDatabase (TMDB).  Functionality includes: detailed page of movies, tv series, person. Displaying popular movies, searching for movies and shows. Authorization as guest user, light-dark mode toggling, feature to add and delete from favorites, watchlist or rate movies",
+      stack: "Built with: React, TypeScript, Redux Toolkit, RTK Query, Tailwind, React Bootstrap",
+    },
+    ru: {
+      title: "FilmBook",
+      description:
+        "Веб приложения для поиска, фильтрация фильмов, сериалов и актеров. А также добавления, удаления из понравившихся, избранных и рейтинги фильмов. Backend API основан на TheMovieDatabase (TMDB).",
+      stack: "Создано с использованием: React, TypeScript, Redux Toolkit, RTK Query, Tailwind, React Bootstrap",
+    },
+    image: filmbookImg,
+    appLink: "https://filmbook-eight.vercel.app/",
+    githubLink: "https://github.com/azadylbekov/filmbook",
+  },
   {
     en: {
       title: "Weather App",

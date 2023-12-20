@@ -216,6 +216,7 @@ function Navlinks({ isMounted }) {
               nodeRef={link.ref}
             >
               <li
+                key={index}
                 ref={link.ref}
                 className="mr-7 flex items-center"
                 style={{ transitionDelay: 100 * index + "ms" }}
