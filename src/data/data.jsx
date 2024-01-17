@@ -115,7 +115,7 @@ export const EXPERIENCE_DATA = [
     id: uid(),
     techStack: ["Vue", "Vuex", "JavaScript", "SCSS", "Cypress"],
     en: {
-      dates: "Dec 2022 - May 2023",
+      dates: "Dec 2022 - Nov 2023",
       title: "Frontend Developer · Mazars",
       location: "Bishkek, Kyrgyzstan",
       bulletPoints: [
@@ -127,7 +127,7 @@ export const EXPERIENCE_DATA = [
       ],
     },
     ru: {
-      dates: "Дек 2022 - Май 2023",
+      dates: "Дек 2022 - Ноябрь 2023",
       title: "Фронтенд разработчик · Mazars",
       location: "Бишкек, Кыргызстан",
       bulletPoints: [
